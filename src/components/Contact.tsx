@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 const contactInfo = [
   { icon: MapPin, label: 'Location', value: '1234 Industrial Blvd, Denver, CO 80202' },
   { icon: Phone, label: 'Phone', value: '(555) 123-4567' },
-  { icon: Mail, label: 'Email', value: 'info@terraforce.com' },
+  { icon: Mail, label: 'Email', value: 'info@ridgeline-earthworks.com' },
   { icon: Clock, label: 'Hours', value: 'Mon–Sat: 6AM – 6PM' },
 ];
 

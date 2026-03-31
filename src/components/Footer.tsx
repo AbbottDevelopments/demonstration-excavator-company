@@ -26,7 +26,7 @@ export default function Footer() {
                 <Shovel className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold tracking-tight">
-                Terra<span className="text-primary">Force</span>
+                Ridgeline <span className="text-primary">Earthworks</span>
               </span>
             </a>
             <p className="text-white/40 leading-relaxed mb-6 max-w-sm">
@@ -67,7 +67,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-white/30">
-            © 2025 TerraForce Excavation. All rights reserved.
+            © 2025 Ridgeline Earthworks. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-white/30 hover:text-white/60 transition-colors">Privacy Policy</a>

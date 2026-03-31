@@ -30,7 +30,7 @@ export default function Navbar() {
             <Shovel className="w-5 h-5 text-white" />
           </div>
           <span className="text-xl font-bold tracking-tight">
-            Terra<span className="text-primary">Force</span>
+            Ridgeline <span className="text-primary">Earthworks</span>
           </span>
         </a>
 

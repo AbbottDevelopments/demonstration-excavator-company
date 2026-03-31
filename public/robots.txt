@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://terraforce-excavation.com/sitemap.xml
+Sitemap: https://ridgeline-earthworks.com/sitemap.xml

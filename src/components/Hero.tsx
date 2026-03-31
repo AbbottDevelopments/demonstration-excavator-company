@@ -42,7 +42,7 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-white/60 max-w-2xl leading-relaxed mb-10 animate-slide-up opacity-0 stagger-3">
-            From site preparation to precision grading, TerraForce delivers powerful excavation solutions 
+            From site preparation to precision grading, Ridgeline Earthworks delivers powerful excavation solutions 
             that lay the groundwork for extraordinary construction projects.
           </p>
 

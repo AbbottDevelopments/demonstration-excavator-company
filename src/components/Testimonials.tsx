@@ -6,19 +6,19 @@ const testimonials = [
   {
     name: 'Michael Torres',
     role: 'General Contractor, Torres Construction',
-    text: 'TerraForce transformed our 20-acre site in record time. Their precision grading saved us weeks on the foundation phase. Absolutely top-tier work.',
+    text: 'Ridgeline Earthworks transformed our 20-acre site in record time. Their precision grading saved us weeks on the foundation phase. Absolutely top-tier work.',
     rating: 5,
   },
   {
     name: 'Sarah Chen',
     role: 'Project Manager, Horizon Developments',
-    text: 'We\'ve worked with many excavation companies, but TerraForce stands apart. Their communication, safety record, and attention to detail are unmatched.',
+    text: 'We\'ve worked with many excavation companies, but Ridgeline Earthworks stands apart. Their communication, safety record, and attention to detail are unmatched.',
     rating: 5,
   },
   {
     name: 'David Blackwell',
     role: 'Owner, Blackwell Homes',
-    text: 'From the initial estimate to final cleanup, TerraForce was professional and efficient. They handled our complex hillside excavation flawlessly.',
+    text: 'From the initial estimate to final cleanup, Ridgeline Earthworks was professional and efficient. They handled our complex hillside excavation flawlessly.',
     rating: 5,
   },
 ];

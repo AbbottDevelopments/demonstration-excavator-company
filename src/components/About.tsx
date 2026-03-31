@@ -60,14 +60,14 @@ export default function About() {
             ref={rightRef}
             className={`${rightVisible ? 'animate-slide-up' : 'opacity-0'}`}
           >
-            <span className="text-primary text-sm font-semibold uppercase tracking-widest mb-4 block">About TerraForce</span>
+            <span className="text-primary text-sm font-semibold uppercase tracking-widest mb-4 block">About Ridgeline Earthworks</span>
             <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-6">
               Built on Strength.
               <br />
               <span className="gradient-text">Driven by Precision.</span>
             </h2>
             <p className="text-lg text-white/50 leading-relaxed mb-8">
-              For over 25 years, TerraForce has been the trusted name in excavation services across the region. 
+              For over 25 years, Ridgeline Earthworks has been the trusted name in excavation services across the region. 
               Our team combines cutting-edge technology with decades of hands-on experience to deliver results 
               that exceed expectations—on time and on budget.
             </p>
