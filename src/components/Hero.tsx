@@ -22,8 +22,8 @@ export default function Hero() {
       </div>
 
       {/* Decorative orbs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[120px] animate-float" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-secondary/10 rounded-full blur-[100px] animate-float" style={{ animationDelay: '3s' }} />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[120px] animate-float" aria-hidden="true" />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-secondary/10 rounded-full blur-[100px] animate-float" aria-hidden="true" style={{ animationDelay: '3s' }} />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-20">
         <div className="max-w-4xl">

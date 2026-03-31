@@ -67,7 +67,7 @@ export default function Services() {
 
   return (
     <section id="services" className="relative py-32 overflow-hidden">
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[150px]" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[150px]" aria-hidden="true" />
 
       <div className="max-w-7xl mx-auto px-6">
         <div

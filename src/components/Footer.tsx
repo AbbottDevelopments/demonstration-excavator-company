@@ -8,10 +8,10 @@ const footerLinks = {
 };
 
 const socials = [
-  { icon: Facebook, href: '#' },
-  { icon: Instagram, href: '#' },
-  { icon: Linkedin, href: '#' },
-  { icon: Youtube, href: '#' },
+  { icon: Facebook, href: '#', label: 'Facebook' },
+  { icon: Instagram, href: '#', label: 'Instagram' },
+  { icon: Linkedin, href: '#', label: 'LinkedIn' },
+  { icon: Youtube, href: '#', label: 'YouTube' },
 ];
 
 export default function Footer() {
@@ -39,7 +39,7 @@ export default function Footer() {
                   key={i}
                   href={s.href}
                   className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-primary/20 hover:border-primary/30 transition-all duration-300"
-                  aria-label="Social media"
+                  aria-label={s.label}
                 >
                   <s.icon className="w-4 h-4 text-white/60" />
                 </a>

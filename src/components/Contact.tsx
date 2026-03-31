@@ -21,7 +21,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative py-32 overflow-hidden">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[200px]" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[200px]" aria-hidden="true" />
 
       <div className="max-w-7xl mx-auto px-6">
         <div
@@ -70,38 +70,42 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="glass rounded-3xl p-8 space-y-6">
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-white/60 mb-2">Full Name</label>
+                    <label htmlFor="contact-name" className="block text-sm font-medium text-white/60 mb-2">Full Name</label>
                     <input
+                      id="contact-name"
                       type="text"
                       required
                       placeholder="John Smith"
-                      className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300"
+                      className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-white/60 mb-2">Phone Number</label>
+                    <label htmlFor="contact-phone" className="block text-sm font-medium text-white/60 mb-2">Phone Number</label>
                     <input
+                      id="contact-phone"
                       type="tel"
                       required
                       placeholder="(555) 000-0000"
-                      className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300"
+                      className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300"
                     />
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-white/60 mb-2">Email Address</label>
+                  <label htmlFor="contact-email" className="block text-sm font-medium text-white/60 mb-2">Email Address</label>
                   <input
+                    id="contact-email"
                     type="email"
                     required
                     placeholder="john@example.com"
-                    className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300"
+                    className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-white/60 mb-2">Service Needed</label>
+                  <label htmlFor="contact-service" className="block text-sm font-medium text-white/60 mb-2">Service Needed</label>
                   <select
+                    id="contact-service"
                     required
-                    className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white/70 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300 appearance-none"
+                    className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white/70 focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300 appearance-none"
                   >
                     <option value="" className="bg-surface">Select a service</option>
                     <option value="excavation" className="bg-surface">Site Excavation</option>
@@ -113,12 +117,13 @@ export default function Contact() {
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-white/60 mb-2">Project Details</label>
+                  <label htmlFor="contact-details" className="block text-sm font-medium text-white/60 mb-2">Project Details</label>
                   <textarea
+                    id="contact-details"
                     rows={4}
                     required
                     placeholder="Tell us about your project, timeline, and any specific requirements..."
-                    className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300 resize-none"
+                    className="w-full px-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:border-primary/50 focus:ring-1 focus:ring-primary/25 transition-all duration-300 resize-none"
                   />
                 </div>
                 <button
